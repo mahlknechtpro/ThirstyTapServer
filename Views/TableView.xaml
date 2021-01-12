@@ -1,0 +1,65 @@
+﻿<UserControl x:Class="ThirstyTap.Views.TableView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d" 
+             xmlns:viewmodels="clr-namespace:ThirstyTap.Viewmodels"
+             xmlns:views="clr-namespace:ThirstyTap.Views"
+             d:DesignHeight="450" d:DesignWidth="800">
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <TabControl>
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock x:Name="room_one" Foreground="Blue" Visibility="Hidden" />
+                    </StackPanel>
+                </TabItem.Header>
+            </TabItem>
+        </TabControl>
+        <TabControl>
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock x:Name="room_two" Foreground="Blue" Visibility="Hidden" />
+                    </StackPanel>
+                </TabItem.Header>
+            </TabItem>
+        </TabControl>
+        <TabControl>
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock x:Name="room_three" Foreground="Blue" Visibility="Hidden" />
+                    </StackPanel>
+                </TabItem.Header>
+            </TabItem>
+        </TabControl>
+        <TabControl>
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock x:Name="room_four" Foreground="Blue" Visibility="Hidden" />
+                    </StackPanel>
+                </TabItem.Header>
+            </TabItem>
+        </TabControl>
+        <TabControl Grid.Row="1" Grid.Column="1">
+                <TabItem>
+                    <TabItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock x:Name="room_five" Foreground="Blue" Visibility="Hidden" />
+                        </StackPanel>
+                    </TabItem.Header>
+                </TabItem>
+         </TabControl>
+    </Grid>
+</UserControl>
