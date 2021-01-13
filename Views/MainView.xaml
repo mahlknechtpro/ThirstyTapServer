@@ -17,7 +17,7 @@
         <Grid.RowDefinitions>
             <RowDefinition  />
         </Grid.RowDefinitions>
-        <Button Content="Kassa" x:Name="btn_kassa" Grid.Column="0" Grid.Row="0" FontSize="35" Margin="75,250,75,20" Background="Transparent" Click="Btn_kassa_Click">
+        <Button Content="Kassa" x:Name="btn_menue_kassa" Grid.Column="0" Grid.Row="0" FontSize="35" Margin="75,250,75,20" Background="Transparent" Click="BTN_Menue_OpenKassaView_Click">
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Template">
@@ -37,7 +37,7 @@
                 </Style>
             </Button.Style>
         </Button>
-        <Button Content="Tavoli" x:Name="btn_table" Grid.Column="0" Grid.Row="0" FontSize="35" Margin="75,20,75,250" Background="Transparent" Click="btn_table_Click">
+        <Button Content="Tavoli" x:Name="btn_menue_table" Grid.Column="0" Grid.Row="0" FontSize="35" Margin="75,20,75,250" Background="Transparent" Click="BTN_Menue_OpenTableView_Click">
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Template">
@@ -57,7 +57,7 @@
                 </Style>
             </Button.Style>
         </Button>
-        <Button Content="Statistica" x:Name="btn_statistik" Grid.Column="1" Grid.Row="0" FontSize="35" Margin="75,100,75,100" Background="Transparent" Click="Click_statistic">
+        <Button Content="Statistica" x:Name="btn_menue_statistik" Grid.Column="1" Grid.Row="0" FontSize="35" Margin="75,100,75,100" Background="Transparent" Click="BTN_Menue_OpenStatisticView_Click"  >
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Template">

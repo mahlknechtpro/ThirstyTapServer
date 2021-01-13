@@ -28,17 +28,18 @@ namespace ThirstyTap.Views
             Logger.Write(Logger.INFO, "View MainView wurde gestartet");
         }
 
-        private void Btn_kassa_Click(object sender, RoutedEventArgs e)
+        private void BTN_Menue_OpenKassaView_Click(object sender, RoutedEventArgs e)
         {
             MainWindow.App.SwitchPage(new BarMenuViewModel());
         }
-        private void Click_statistic(object sender, RoutedEventArgs e)
+        private void BTN_Menue_OpenStatisticView_Click(object sender, RoutedEventArgs e)
         {
             MainWindow.App.SwitchPage(new StatisticViewModel());
         }
-        private void btn_table_Click(object sender, RoutedEventArgs e)
+        private void BTN_Menue_OpenTableView_Click(object sender, RoutedEventArgs e)
         {
             MainWindow.App.SwitchPage(new TableViewModel());
         }
+
     }
 }
