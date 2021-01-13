@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ThirstyTap.Core;
 
 namespace ThirstyTap.Views
 {
@@ -23,6 +24,7 @@ namespace ThirstyTap.Views
         public TableView()
         {
             InitializeComponent();
+            Logger.Write(Logger.INFO, "View TableView wurde gestartet");
         }
     }
 }

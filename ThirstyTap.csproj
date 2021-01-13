@@ -45,7 +45,6 @@
     <Reference Include="FontAwesome.WPF, Version=4.7.0.37774, Culture=neutral, PublicKeyToken=0758b07a11a4f466, processorArchitecture=MSIL">
       <HintPath>packages\FontAwesome.WPF.4.7.0.9\lib\net40\FontAwesome.WPF.dll</HintPath>
     </Reference>
-    <Reference Include="MySql.Data, Version=8.0.21.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -153,12 +152,6 @@
     <Folder Include="Class\" />
     <Folder Include="Models\" />
     <Folder Include="SQL\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\funcDLL\funcDLL.csproj">
-      <Project>{20b6af7f-974e-4f5e-9b96-328f6ca571d1}</Project>
-      <Name>funcDLL</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Resource Include="drink_bar_cocktails.ico" />

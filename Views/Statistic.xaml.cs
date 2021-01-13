@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ThirstyTap.Core;
 
 namespace ThirstyTap.Views
 {
@@ -23,7 +24,7 @@ namespace ThirstyTap.Views
         public Statistic()
         {
             InitializeComponent();
-            funcDLL.Func.LogWrite_Info("View Statistic wurde gestartet");
+            Logger.Write(Logger.INFO, "View Statistic wurde gestartet");
         }
     }
 }

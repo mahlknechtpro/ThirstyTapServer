@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ThirstyTap.Core;
 
 namespace ThirstyTap.Views
 {
@@ -24,8 +25,7 @@ namespace ThirstyTap.Views
         public MainView()
         {
             InitializeComponent();
-
-            funcDLL.Func.LogWrite_Info("View MainView wurde gestartet");
+            Logger.Write(Logger.INFO, "View MainView wurde gestartet");
         }
 
         private void Btn_kassa_Click(object sender, RoutedEventArgs e)
