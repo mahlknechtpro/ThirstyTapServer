@@ -23,6 +23,9 @@
         <DataTemplate x:Name="configurationTemplate" DataType="{x:Type viewmodels:ConfigurationViewModel}">
             <views:ConfigurationView DataContext="{Binding ConfigurationView}" />
         </DataTemplate>
+        <DataTemplate x:Name="tableTemplate" DataType="{x:Type viewmodels:TableViewModel}">
+            <views:TableView DataContext="{Binding TableView}" />
+        </DataTemplate>
     </Window.Resources>
     
     

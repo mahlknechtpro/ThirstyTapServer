@@ -7,8 +7,8 @@
              xmlns:viewmodels="clr-namespace:ThirstyTap.Viewmodels"
              xmlns:views="clr-namespace:ThirstyTap.Views"
              d:DesignHeight="450" d:DesignWidth="800">
-    
-    <Grid>
+
+    <Grid x:Name="viewTableView" Background="White">
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
