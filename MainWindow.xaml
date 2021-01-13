@@ -12,16 +12,16 @@
     
     <Window.Resources>
         <DataTemplate x:Name="statisticTemplate" DataType="{x:Type viewmodels:StatisticViewModel}">
-            <views:Statistic DataContext="{Binding Statistic}" />
+            <views:StatisticView DataContext="{Binding StatisticView}" />
         </DataTemplate>
         <DataTemplate x:Name="mainTemplate" DataType="{x:Type viewmodels:MainViewModel}">
-            <views:MainView DataContext="{Binding}" />
+            <views:MainView DataContext="{Binding MainView}" />
         </DataTemplate>
         <DataTemplate x:Name="barTemplate" DataType="{x:Type viewmodels:BarMenuViewModel}">
-            <views:BarMenu DataContext="{Binding}" />
+            <views:BarMenuView DataContext="{Binding BarMenuView}" />
         </DataTemplate>
         <DataTemplate x:Name="configurationTemplate" DataType="{x:Type viewmodels:ConfigurationViewModel}">
-            <views:Configuration DataContext="{Binding Configuration}" />
+            <views:ConfigurationView DataContext="{Binding ConfigurationView}" />
         </DataTemplate>
     </Window.Resources>
     

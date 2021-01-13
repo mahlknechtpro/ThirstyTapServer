@@ -18,18 +18,18 @@ using ThirstyTap.Core;
 namespace ThirstyTap.Views
 {
     /// <summary>
-    /// Interaktionslogik für BarMenu.xaml
+    /// Interaktionslogik für BarMenuView.xaml
     /// </summary>
     /// 
 
-    public partial class BarMenu : UserControl
+    public partial class BarMenuView : UserControl
     {
         //globale Variable
         public static int quantity = 1;
         public Button buttonName;
         public TextBlock textBlockName;
 
-        public BarMenu()
+        public BarMenuView()
         {
             InitializeComponent();
             Logger.Write(Logger.INFO, "View BarMenu wurde gestartet");

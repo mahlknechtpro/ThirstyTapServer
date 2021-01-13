@@ -65,22 +65,23 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Core\Logger.cs" />
     <Compile Include="Viewmodels\BarMenuViewModel.cs" />
     <Compile Include="Viewmodels\ConfigurationViewModel.cs" />
     <Compile Include="Viewmodels\MainViewModel.cs" />
     <Compile Include="Viewmodels\StatisticViewModel.cs" />
     <Compile Include="Viewmodels\TableViewModel.cs" />
-    <Compile Include="Views\BarMenu.xaml.cs">
-      <DependentUpon>BarMenu.xaml</DependentUpon>
+    <Compile Include="Views\BarMenuView.xaml.cs">
+      <DependentUpon>BarMenuView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Configuration.xaml.cs">
-      <DependentUpon>Configuration.xaml</DependentUpon>
+    <Compile Include="Views\ConfigurationView.xaml.cs">
+      <DependentUpon>ConfigurationView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\MainView.xaml.cs">
       <DependentUpon>MainView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Statistic.xaml.cs">
-      <DependentUpon>Statistic.xaml</DependentUpon>
+    <Compile Include="Views\StatisticView.xaml.cs">
+      <DependentUpon>StatisticView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\TableView.xaml.cs">
       <DependentUpon>TableView.xaml</DependentUpon>
@@ -97,11 +98,11 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Views\BarMenu.xaml">
+    <Page Include="Views\BarMenuView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\Configuration.xaml">
+    <Page Include="Views\ConfigurationView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -109,7 +110,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\Statistic.xaml">
+    <Page Include="Views\StatisticView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

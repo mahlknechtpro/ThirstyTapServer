@@ -17,11 +17,11 @@ using ThirstyTap.Core;
 namespace ThirstyTap.Views
 {
     /// <summary>
-    /// Interaktionslogik für Statistic.xaml
+    /// Interaktionslogik für StatisticView.xaml
     /// </summary>
-    public partial class Statistic : UserControl
+    public partial class StatisticView : UserControl
     {
-        public Statistic()
+        public StatisticView()
         {
             InitializeComponent();
             Logger.Write(Logger.INFO, "View Statistic wurde gestartet");

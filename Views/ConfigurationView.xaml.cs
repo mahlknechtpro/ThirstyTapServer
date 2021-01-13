@@ -18,11 +18,11 @@ using ThirstyTap.Core;
 namespace ThirstyTap.Views
 {
     /// <summary>
-    /// Interaktionslogik für Configuration.xaml
+    /// Interaktionslogik für ConfigurationView.xaml
     /// </summary>
-    public partial class Configuration : UserControl
+    public partial class ConfigurationView : UserControl
     {
-        public Configuration()
+        public ConfigurationView()
         {
             InitializeComponent();
             Logger.Write(Logger.INFO, "View Configuration wurde gestartet");
