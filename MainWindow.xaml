@@ -11,13 +11,13 @@
         Title="MainWindow" WindowState="Maximized" WindowStyle="None" Width="1366" Height="768">
     
     <Window.Resources>
-        <DataTemplate x:Name="statisticTemplate" DataType="{x:Type viewmodels:StatisticViewModel}">
-            <views:StatisticView DataContext="{Binding StatisticView}" />
-        </DataTemplate>
         <DataTemplate x:Name="mainTemplate" DataType="{x:Type viewmodels:MainViewModel}">
             <views:MainView DataContext="{Binding MainView}" />
         </DataTemplate>
-        <DataTemplate x:Name="barTemplate" DataType="{x:Type viewmodels:BarMenuViewModel}">
+        <DataTemplate x:Name="statisticTemplate" DataType="{x:Type viewmodels:StatisticViewModel}">
+            <views:StatisticView DataContext="{Binding StatisticView}" />
+        </DataTemplate>
+        <DataTemplate x:Name="barmenuTemplate" DataType="{x:Type viewmodels:BarMenuViewModel}">
             <views:BarMenuView DataContext="{Binding BarMenuView}" />
         </DataTemplate>
         <DataTemplate x:Name="configurationTemplate" DataType="{x:Type viewmodels:ConfigurationViewModel}">
